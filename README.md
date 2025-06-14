@@ -1,10 +1,5 @@
-1) Created an Ec2 instance on the Aws. Selected Ubuntu
-2) Created a port 443 & 80 on the securtiy groups.
-3) I linked the created security group with the ec2 created for this project from the instance page.
-4) I clicked on action and a drop down option of option was displayed and I clicked on security and change seurity.
-5) Connected my Ec2 via gitbash using the security key generated and installed the nginx.
+## AltSchool Second Semester Project Submission
 
-![image](./IP%20&%20landingPage.PNG) 
 ## Server setup
  I created an account on AWS. I set up an EC2 instance by using the search bar to search for EC2 and clicking on Launch Instance. Then follow the steps below:
 
