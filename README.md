@@ -16,6 +16,8 @@ Connect to AWS EC2 Instance using code below (for SSH Client):
 
 ssh -i "seyti-key-altsch.pem" ubuntu@ec2-13-60-232-249.eu-north-1.compute.amazonaws.com
 
+[image](./port%2080%20&%20443.PNG)
+
 ## STEP 2 - INSTALL NGINX & UPDATE PACKAGE
 Run the command below to install nginx (option -y is to automatically say yes to the permission requested during installation)
 
