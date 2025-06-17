@@ -54,3 +54,23 @@ sudo cp -r * ../
 Now that your index.html file is clone into the server, you can view this via the public IP of your server as seen in the screenshot below. (Ensure you set up your Security Group to allow traffic on port 80 so the website can be accessed on the internet via the public IP.)
 ![image](./LandingPageWithIP.PNG)
 
+## STEP 4 - CONFIGURING SSL USING LET'S ENCRYPT
+
+- First I got a domain name
+
+- Secondly,I installed certbot using the script below:
+
+sudo apt update
+sudo apt install certbot python3-certbot-nginx
+
+Then, we obtain and deploy the certificate to our server using:
+
+sudo certbot --nginx
+
+Note: A prompt would come up requesting the domain name of your website to deploy the certificate to.
+
+![image](./certificate.PNG)
+
+- Your site is up successfully with the installed domain name as seen below.
+
+![image](./domain.PNG)
